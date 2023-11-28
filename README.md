@@ -27,4 +27,4 @@
 
   서빙 모니터링: Prometheus, Frafana, Thanos
 
-  파이프라인: Kubeflow, argo workflows, Airflow
+  파이프라인 매니징: Kubeflow, argo workflows, Airflow
