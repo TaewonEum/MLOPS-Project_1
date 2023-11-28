@@ -41,7 +41,24 @@ Build Once=> Run Anywhere
 
 1. Oracle VM Virtual Box 설치
 
+링크: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
+
+version: virtualBox 6.1.26
+
 2. Unbuntu 설치
+
+링크: http://lt.releases.ubuntu.com/20.04.3/
+
+version: ubuntu 20.04.3
+
+3. 가상환경 구축
+
+![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/5148d53a-fe79-47cb-a324-1ca0f8fdefe8)
+
+Oracle VM VirtualBox 접속-> 새로 만들기-> Linux, Ubuntu 설정
+
+
+
 
 
 
