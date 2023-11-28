@@ -39,4 +39,10 @@ Build Once=> Run Anywhere
 
 # 환경 구축
 
+1. Oracle VM Virtual Box 설치
+
+2. Unbuntu 설치
+
+
+
 
