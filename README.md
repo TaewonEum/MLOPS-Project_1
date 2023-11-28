@@ -30,3 +30,9 @@
   파이프라인 매니징: Kubeflow, argo workflows, Airflow
 
   # Docker & Kubernetes
+
+1. Containerization: 컨테이너화 하는 기술
+
+2. Container: 격리된 공간에서 프로세스를 실행시킬 수 있는 기술
+
+Build Once=> Run Anywhere
