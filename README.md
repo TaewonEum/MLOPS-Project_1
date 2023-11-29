@@ -75,8 +75,11 @@ Oracle VM VirtualBox 접속-> 새로 만들기-> Linux, Ubuntu 설정
 - gnupg: 암호화 및 디지털 서명 기능을 제공하는 GNU Privacy Guard
 - lsb-release: Linux Standard Base 버전 및 정보를 제공하는 패키지
 
+- 도커 공식 GPG key를 생성합니다
+- 
+![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/0860c592-8e17-450f-8605-6c298be4454d)
 
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
 
 
 
