@@ -79,6 +79,30 @@ Oracle VM VirtualBox 접속-> 새로 만들기-> Linux, Ubuntu 설정
 
 ![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/0860c592-8e17-450f-8605-6c298be4454d)
 
+- 이후 코드
+
+echo \
+"deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] http
+s://download.docker.com/linux/ubuntu \
+$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /de
+v/null
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io 
+
+sudo docker run hello-world
+
+![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/8b5732a2-a61b-4801-b482-8d13339376f4)
+
+다음과 같은 실행문이 나온다면 정상적으로 설치 된 것
+
+sudo usermod -a -G docker $USER
+sudo service docker restart
+
+docker ps
+-실행 중인 컨테이너의 목록을 표시
+![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/419a7e2f-1aec-44a1-b10f-12ded1dfe679)
+
 
 
 
