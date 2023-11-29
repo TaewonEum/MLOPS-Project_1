@@ -123,7 +123,9 @@ sudo service docker restart
 
 - docker rmi: 도커 이미지를 삭제하는 커멘드
 
-- 
+- 먼저 컨테이너 삭제->이미지를 삭제하는 순서로 가야 함
+
+# Docker File 만들기 및 Docker images build
 
 
 
