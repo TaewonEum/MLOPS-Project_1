@@ -104,6 +104,16 @@ sudo service docker restart
 
 ![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/419a7e2f-1aec-44a1-b10f-12ded1dfe679)
 
+# Docker 기본 명령어
+
+- docker ps: 현재 실행중인 도커 컨테이너 리스트를 출력하는 커맨드
+- docker pull: docker image repository 부터 Docker image 를 가져오는 커맨드
+- docker run: 도커 컨테이너를 실행시키는 커맨드입니다
+- docker run -it name test1 ubuntu:18.04 /bin/bash
+
+1) -it: container를 실행시킴과 동시에 interactive한 terminal로 접속시켜주는 옵션
+2) --name: 컨데이너 id 대신, 구분하기 쉽게 지정해주는 이름(개발자가 마음대로 설정)
+3) /bin/bash: 컨테이너 실행과 동시에 실행할 커멘드임, 즉 도커이미지 컨테이너 내부에 들어가서 조작할 수 있도록 해주는 커멘드임
 
 
 
