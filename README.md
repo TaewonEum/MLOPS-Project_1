@@ -57,6 +57,32 @@ version: ubuntu 20.04.3
 
 Oracle VM VirtualBox 접속-> 새로 만들기-> Linux, Ubuntu 설정
 
+# Docker 설치
+
+가상환경내에 Docker설치 후 설치 확인 까지
+
+- apt 패키지 업데이터
+
+sudo apt-get update
+
+- Docker prerequisite package 설치
+
+sudo apt-get install \
+apt-transport-https \
+ca-certificates \
+curl \
+gnupg \
+lsb-release
+
+- apt-transport-https:  HTTPS를 통해 APT 저장소를 사용할 수 있도록 해주는 도구
+- ca-certificates:  인증서를 관리하기 위한 필수 패키지
+- curl: URL을 통해 데이터를 전송하고 받을 수 있는 명령줄 도구
+- gnupg: 암호화 및 디지털 서명 기능을 제공하는 GNU Privacy Guard
+- lsb-release: Linux Standard Base 버전 및 정보를 제공하는 패키지
+
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
 
 
 
