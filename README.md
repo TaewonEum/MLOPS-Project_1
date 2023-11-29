@@ -63,11 +63,11 @@ Oracle VM VirtualBox 접속-> 새로 만들기-> Linux, Ubuntu 설정
 
 - apt 패키지 업데이터
 
-sudo apt-get update
+![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/8477ddbe-dc22-4897-948d-9daa0bf7af8c)
 
 - Docker prerequisite package 설치
 
-sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
+![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/3d1a9ea6-a134-4be8-9258-4a4b5fc27ae5)
 
 - apt-transport-https:  HTTPS를 통해 APT 저장소를 사용할 수 있도록 해주는 도구
 - ca-certificates:  인증서를 관리하기 위한 필수 패키지
