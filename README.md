@@ -69,14 +69,14 @@ Oracle VM VirtualBox 접속-> 새로 만들기-> Linux, Ubuntu 설정
 
 ![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/3d1a9ea6-a134-4be8-9258-4a4b5fc27ae5)
 
-- apt-transport-https:  HTTPS를 통해 APT 저장소를 사용할 수 있도록 해주는 도구
-- ca-certificates:  인증서를 관리하기 위한 필수 패키지
-- curl: URL을 통해 데이터를 전송하고 받을 수 있는 명령줄 도구
-- gnupg: 암호화 및 디지털 서명 기능을 제공하는 GNU Privacy Guard
-- lsb-release: Linux Standard Base 버전 및 정보를 제공하는 패키지
+1) apt-transport-https:  HTTPS를 통해 APT 저장소를 사용할 수 있도록 해주는 도구
+2) ca-certificates:  인증서를 관리하기 위한 필수 패키지
+3) curl: URL을 통해 데이터를 전송하고 받을 수 있는 명령줄 도구
+4) gnupg: 암호화 및 디지털 서명 기능을 제공하는 GNU Privacy Guard
+5) lsb-release: Linux Standard Base 버전 및 정보를 제공하는 패키지
 
 - 도커 공식 GPG key를 생성합니다
-- 
+
 ![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/0860c592-8e17-450f-8605-6c298be4454d)
 
 
