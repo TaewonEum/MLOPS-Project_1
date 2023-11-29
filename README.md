@@ -100,7 +100,7 @@ sudo usermod -a -G docker $USER
 sudo service docker restart
 
 
--실행 중인 컨테이너의 목록을 표시
+- 실행 중인 컨테이너의 목록을 표시
 
 ![image](https://github.com/TaewonEum/MLOPS-Project/assets/104436260/419a7e2f-1aec-44a1-b10f-12ded1dfe679)
 
