@@ -67,12 +67,7 @@ sudo apt-get update
 
 - Docker prerequisite package 설치
 
-sudo apt-get install \
-apt-transport-https \
-ca-certificates \
-curl \
-gnupg \
-lsb-release
+sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
 
 - apt-transport-https:  HTTPS를 통해 APT 저장소를 사용할 수 있도록 해주는 도구
 - ca-certificates:  인증서를 관리하기 위한 필수 패키지
