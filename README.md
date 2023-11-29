@@ -115,7 +115,15 @@ sudo service docker restart
 2) --name: 컨데이너 id 대신, 구분하기 쉽게 지정해주는 이름(개발자가 마음대로 설정)
 3) /bin/bash: 컨테이너 실행과 동시에 실행할 커멘드임, 즉 도커이미지 컨테이너 내부에 들어가서 조작할 수 있도록 해주는 커멘드임
 
+- docker exec: Docker 컨테이너 내부에서 명령을 내리거나 내부로 접속하는 커멘드(bin/bash와 동일)
 
+- docker logs: 도커 컨테이너의 log를 확인하는 커멘드
+
+- docker rm: 도커 컨테이너를 삭제하는 커멘드
+
+- docker rmi: 도커 이미지를 삭제하는 커멘드
+
+- 
 
 
 
